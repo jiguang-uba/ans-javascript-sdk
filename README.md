@@ -1,4 +1,4 @@
-# [易观方舟](https://www.analysys.cn/) asd-javascript-sdk [![NPM version][npm-image]][npm-url] [![License](https://img.shields.io/github/license/analysys/ans-javascript-sdk.svg)](https://github.com/analysys/ans-wechat-sdk/blob/master/LICENSE) [![GitHub release](https://img.shields.io/github/release/analysys/ans-javascript-sdk.svg)](https://github.com/analysys/ans-javascript-sdk/releases)
+# asd-javascript-sdk 
 
 ## 安装
 
@@ -48,27 +48,3 @@ cross_subdomain | 否 | boolean | false | 设置在二级域名下存储cookie
 sendDataTimeout | 否 | number | 10000，单位：毫秒 | 设置上报日志超时时间
 getDataTimeout | 否 | number | 10000，单位：毫秒 | 设置获取可视化埋点列表的超时时间
 trackList | 否 | String[] / () => boolean | - | 设置除默认可输出元素外的可触控元素列表
-
-> 注意 SDK 可能不完全向前兼容，请查看版本更新说明 [Release及版本升级记录](https://github.com/analysys/ans-javascript-sdk/releases)。如果有说明不兼容的话，需要升级易观方舟对应的版本。 请根据需要前往 [Release](https://github.com/analysys/ans-javascript-sdk/releases) 里下载对应的文件
-
-
-## 版本升级记录
-请参见 [Release及版本升级记录](https://github.com/analysys/ans-javascript-sdk/releases)
-
-
-
-
-**禁止一切基于易观方舟 javascript 开源 SDK 的所有商业活动！**
-
----
-
-[![NPM downloads][npm-downloads]][npm-url]
-
-
-
-
-[homepage]: https://github.com/analysys/ans-javascript-sdk
-[npm-url]: https://www.npmjs.com/package/asd-javascript-sdk
-[npm-image]: https://img.shields.io/npm/v/asd-javascript-sdk.svg?style=flat
-[npm-downloads]: https://img.shields.io/npm/dm/asd-javascript-sdk.svg?style=flat
-
